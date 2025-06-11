@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['B', 'K', 'N', 'P', 'Q', 'R', 'b', 'board', 'k', 'n', 'p', 'q', 'r']
+
+roboflow:
+  workspace: chess-project
+  project: 2d-chessboard-and-chess-pieces
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chess-project/2d-chessboard-and-chess-pieces/dataset/4
